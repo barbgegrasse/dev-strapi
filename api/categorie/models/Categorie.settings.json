@@ -1,0 +1,22 @@
+{
+  "connection": "default",
+  "collectionName": "categories",
+  "info": {
+    "name": "categorie",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "comment": ""
+  },
+  "attributes": {
+    "titre": {
+      "type": "string"
+    },
+    "articles": {
+      "collection": "article",
+      "via": "category"
+    }
+  }
+}
