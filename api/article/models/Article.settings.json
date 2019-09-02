@@ -36,6 +36,9 @@
     "category": {
       "model": "categorie",
       "via": "articles"
+    },
+    "meta_title": {
+      "type": "string"
     }
   }
 }

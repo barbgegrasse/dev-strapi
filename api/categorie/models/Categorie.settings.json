@@ -17,13 +17,13 @@
     "titre": {
       "type": "string"
     },
-    "articles": {
-      "collection": "article",
-      "via": "category"
-    },
     "slug": {
       "required": true,
       "type": "string"
+    },
+    "articles": {
+      "collection": "article",
+      "via": "category"
     }
   }
 }
