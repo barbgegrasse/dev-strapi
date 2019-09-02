@@ -2,7 +2,7 @@
   "connection": "default",
   "collectionName": "categories",
   "info": {
-    "name": "categorie",
+    "name": "category",
     "description": ""
   },
   "options": {
@@ -13,18 +13,6 @@
   "attributes": {
     "titre": {
       "type": "string"
-    },
-    "slug": {
-      "type": "string"
-    },
-    "image": {
-      "model": "file",
-      "via": "related",
-      "plugin": "upload"
-    },
-    "articles": {
-      "collection": "article",
-      "via": "categorie"
     }
   }
 }
