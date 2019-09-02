@@ -35,6 +35,10 @@
     },
     "metatitle": {
       "type": "string"
+    },
+    "categorie": {
+      "model": "categorie",
+      "via": "articles"
     }
   }
 }
