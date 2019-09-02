@@ -2,48 +2,48 @@
   "routes": [
     {
       "method": "GET",
-      "path": "/recettecategories",
-      "handler": "Recettecategorie.find",
+      "path": "/articlecats",
+      "handler": "Articlecat.find",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/recettecategories/count",
-      "handler": "Recettecategorie.count",
+      "path": "/articlecats/count",
+      "handler": "Articlecat.count",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/recettecategories/:id",
-      "handler": "Recettecategorie.findOne",
+      "path": "/articlecats/:id",
+      "handler": "Articlecat.findOne",
       "config": {
         "policies": []
       }
     },
     {
       "method": "POST",
-      "path": "/recettecategories",
-      "handler": "Recettecategorie.create",
+      "path": "/articlecats",
+      "handler": "Articlecat.create",
       "config": {
         "policies": []
       }
     },
     {
       "method": "PUT",
-      "path": "/recettecategories/:id",
-      "handler": "Recettecategorie.update",
+      "path": "/articlecats/:id",
+      "handler": "Articlecat.update",
       "config": {
         "policies": []
       }
     },
     {
       "method": "DELETE",
-      "path": "/recettecategories/:id",
-      "handler": "Recettecategorie.delete",
+      "path": "/articlecats/:id",
+      "handler": "Articlecat.delete",
       "config": {
         "policies": []
       }
