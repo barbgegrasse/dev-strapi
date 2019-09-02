@@ -1,8 +1,8 @@
 {
   "connection": "default",
-  "collectionName": "tests",
+  "collectionName": "categories",
   "info": {
-    "name": "test",
+    "name": "categorie",
     "description": ""
   },
   "options": {
@@ -13,6 +13,14 @@
   "attributes": {
     "titre": {
       "type": "string"
+    },
+    "slug": {
+      "type": "string"
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload"
     }
   }
 }
