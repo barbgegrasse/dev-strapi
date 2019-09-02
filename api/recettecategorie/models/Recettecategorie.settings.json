@@ -1,0 +1,18 @@
+{
+  "connection": "default",
+  "collectionName": "recettecategories",
+  "info": {
+    "name": "recettecategorie",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "comment": ""
+  },
+  "attributes": {
+    "titre": {
+      "type": "string"
+    }
+  }
+}
